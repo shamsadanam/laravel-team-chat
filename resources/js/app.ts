@@ -1,5 +1,5 @@
 import { createInertiaApp } from "@inertiajs/vue3";
-import { configureEcho } from "@laravel/echo-vue";
+import { configureEcho, echo } from "@laravel/echo-vue";
 
 configureEcho({
     broadcaster: "reverb",
@@ -15,10 +15,6 @@ void createInertiaApp({
                 if (shouldFocus.value !== false) {
                     el.focus();
                 }
-
-                window.Echo.channel("demo").listen("MessageSent", (e) => {
-                    console.log("Got a message:", e.text);
-                });
             },
         });
     },
