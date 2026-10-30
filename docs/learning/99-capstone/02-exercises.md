@@ -1,6 +1,6 @@
 # 99 · Milestones
 
-Each milestone lists **design questions** to answer in writing before you code, and **acceptance checks**. Open the design notes in [solutions.md](solutions.md) only after writing your own.
+Each milestone lists **design questions** to answer in writing before you code, and **acceptance checks**. Open the design notes in [03-solutions.md](03-solutions.md) only after writing your own.
 
 ---
 

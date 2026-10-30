@@ -171,4 +171,4 @@ Fine for throwaway signals. Use a real event class when you want tests, queues, 
 - How live events and Inertia props stay consistent.
 - Why per-viewer data must never be in a broadcast payload.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

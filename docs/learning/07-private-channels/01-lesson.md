@@ -152,4 +152,4 @@ Module 12 tests `/broadcasting/auth` itself, and has a trap to watch out for.
 - Why removing a member doesn't immediately stop their subscription, and what to do about it.
 - How to diagnose a 403 on channel auth.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

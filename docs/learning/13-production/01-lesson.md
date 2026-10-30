@@ -166,4 +166,4 @@ REVERB_SCALING_ENABLED=true
 - How Redis scaling works.
 - The production security checklist.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

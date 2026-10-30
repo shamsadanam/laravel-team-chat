@@ -192,4 +192,4 @@ Only **members** of the room can be notified. A mention must never leak a privat
 - Why the unread count comes from the database, and live updates are only deltas.
 - Why mentions are limited to room members.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

@@ -185,4 +185,4 @@ Or just read the worker's log: `journalctl --user -u lerd-reverb-laravel-reverb-
 - Why Reverb never runs your app code.
 - The five-hop debugging checklist.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

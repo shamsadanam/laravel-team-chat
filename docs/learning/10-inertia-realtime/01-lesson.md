@@ -151,4 +151,4 @@ Slower and costlier, but it degrades gracefully instead of silently going stale.
 - Why reconnecting doesn't restore missed events, and how you re-sync.
 - Where each kind of listener belongs.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

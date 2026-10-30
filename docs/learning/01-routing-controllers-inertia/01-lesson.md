@@ -246,4 +246,4 @@ You can also set a **default layout** for all pages with the `layout` option of 
 - What shared data is and why it should stay small.
 - Why Wayfinder beats hardcoded URLs.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

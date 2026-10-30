@@ -186,4 +186,4 @@ Pair this with the event payload test from §4 and you've tested module 02's pro
 - Why a channel auth test against the null driver is worthless, and both ways to fix it.
 - How a leak test works.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

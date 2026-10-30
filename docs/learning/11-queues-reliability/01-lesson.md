@@ -163,4 +163,4 @@ The request dispatches **one** job. Even better: ask whether each member needs a
 - When `ShouldRescue` is appropriate.
 - Why fan-out goes in a job, and the worker change a custom queue needs here.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

@@ -6,17 +6,17 @@ By the end you'll be able to design, build, test and deploy realtime features in
 
 ## Your stack
 
-| Piece | Version | Role |
-| --- | --- | --- |
-| Laravel | 13.x | Backend framework |
-| PHP | 8.5 | Language |
-| Inertia | v3 (`inertiajs/inertia-laravel`, `@inertiajs/vue3`) | Lets Laravel render Vue pages without building an API |
-| Vue | 3.5 | Frontend |
-| Wayfinder | 0.1.x | Generates typed TS functions for your Laravel routes |
-| Reverb | 1.x | WebSocket server |
-| Laravel Echo | `@laravel/echo-vue` 2.x | Browser-side WebSocket client |
-| Postgres | via lerd | Database |
-| Pest | | Tests |
+| Piece        | Version                                             | Role                                                  |
+| ------------ | --------------------------------------------------- | ----------------------------------------------------- |
+| Laravel      | 13.x                                                | Backend framework                                     |
+| PHP          | 8.5                                                 | Language                                              |
+| Inertia      | v3 (`inertiajs/inertia-laravel`, `@inertiajs/vue3`) | Lets Laravel render Vue pages without building an API |
+| Vue          | 3.5                                                 | Frontend                                              |
+| Wayfinder    | 0.1.x                                               | Generates typed TS functions for your Laravel routes  |
+| Reverb       | 1.x                                                 | WebSocket server                                      |
+| Laravel Echo | `@laravel/echo-vue` 2.x                             | Browser-side WebSocket client                         |
+| Postgres     | via lerd                                            | Database                                              |
+| Pest         |                                                     | Tests                                                 |
 
 ## How to run things in this project
 
@@ -31,28 +31,30 @@ When a lesson says "run `lerd artisan make:model Room`", run it exactly like tha
 ## Roadmap
 
 ### Part A: Laravel foundations
+
 You need these before realtime makes sense. A private channel is just authorization plus a model, and you can't broadcast a message you can't save.
 
-| # | Module | You build |
-| --- | --- | --- |
-| 01 | [Routing, controllers, Inertia](01-routing-controllers-inertia/lesson.md) | Room list and room page with fake data |
-| 02 | [Eloquent](02-eloquent/lesson.md) | Real `Room`, `Message` and membership tables, seeded data |
-| 03 | [Forms and validation](03-forms-validation/lesson.md) | Create rooms, post messages |
-| 04 | [Auth by hand](04-auth-by-hand/lesson.md) | Login/logout, protected routes, "members only" policy |
+| #   | Module                                                                    | You build                                                 |
+| --- | ------------------------------------------------------------------------- | --------------------------------------------------------- |
+| 01  | [Routing, controllers, Inertia](01-routing-controllers-inertia/01-lesson.md) | Room list and room page with fake data                    |
+| 02  | [Eloquent](02-eloquent/01-lesson.md)                                         | Real `Room`, `Message` and membership tables, seeded data |
+| 03  | [Forms and validation](03-forms-validation/01-lesson.md)                     | Create rooms, post messages                               |
+| 04  | [Auth by hand](04-auth-by-hand/01-lesson.md)                                 | Login/logout, protected routes, "members only" policy     |
 
 ### Part B: Realtime with Reverb
-| # | Module | You build |
-| --- | --- | --- |
-| 05 | [Mental model](05-mental-model/lesson.md) | How WebSockets, Reverb and Echo fit together; debugging connections |
-| 06 | [Public channels](06-public-channels/lesson.md) | Messages appear live for everyone |
-| 07 | [Private channels](07-private-channels/lesson.md) | Only room members receive messages |
-| 08 | [Presence](08-presence/lesson.md) | "Who's here" list, typing indicator |
-| 09 | [Model events and notifications](09-models-notifications/lesson.md) | Live room renames, mention notifications |
-| 10 | [Inertia + realtime patterns](10-inertia-realtime/lesson.md) | Prop helpers, optimistic sending, reconnect re-sync |
-| 11 | [Queues and reliability](11-queues-reliability/lesson.md) | Queued broadcasts, after-commit, failures |
-| 12 | [Testing](12-testing/lesson.md) | Pest tests for events, channels and auth |
-| 13 | [Production](13-production/lesson.md) | Reverb config, TLS, scaling, monitoring, deploy |
-| 99 | [Capstone](99-capstone/lesson.md) | Finish the chat: public/private rooms, unread counts, DMs |
+
+| #   | Module                                                              | You build                                                           |
+| --- | ------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| 05  | [Mental model](05-mental-model/01-lesson.md)                           | How WebSockets, Reverb and Echo fit together; debugging connections |
+| 06  | [Public channels](06-public-channels/01-lesson.md)                     | Messages appear live for everyone                                   |
+| 07  | [Private channels](07-private-channels/01-lesson.md)                   | Only room members receive messages                                  |
+| 08  | [Presence](08-presence/01-lesson.md)                                   | "Who's here" list, typing indicator                                 |
+| 09  | [Model events and notifications](09-models-notifications/01-lesson.md) | Live room renames, mention notifications                            |
+| 10  | [Inertia + realtime patterns](10-inertia-realtime/01-lesson.md)        | Prop helpers, optimistic sending, reconnect re-sync                 |
+| 11  | [Queues and reliability](11-queues-reliability/01-lesson.md)           | Queued broadcasts, after-commit, failures                           |
+| 12  | [Testing](12-testing/01-lesson.md)                                     | Pest tests for events, channels and auth                            |
+| 13  | [Production](13-production/01-lesson.md)                               | Reverb config, TLS, scaling, monitoring, deploy                     |
+| 99  | [Capstone](99-capstone/01-lesson.md)                                   | Finish the chat: public/private rooms, unread counts, DMs           |
 
 ### Project-specific facts the course relies on
 
@@ -67,12 +69,13 @@ These were checked against this project's installed versions. They're easy to ge
 
 Every module folder has four files. Use them in this order:
 
-1. **`lesson.md`**: read it with the project open. Code samples show how things work; they aren't a copy-paste checklist.
-2. **`exercises.md`**: build things. Each exercise ends with **Done when…** so you know you finished. Hints are folded (`<details>`), so open one only when you're stuck.
-3. **`solutions.md`**: one working answer per exercise. Read it **after** you finish or after 30 minutes stuck. Then compare: different isn't wrong.
-4. **`checkpoint.md`**: answer the questions without looking. If you can't, re-read that part of the lesson before moving on.
+1. **`01-lesson.md`**: read it with the project open. Code samples show how things work; they aren't a copy-paste checklist.
+2. **`02-exercises.md`**: build things. Each exercise ends with **Done when…** so you know you finished. Hints are folded (`<details>`), so open one only when you're stuck.
+3. **`03-solutions.md`**: one working answer per exercise. Read it **after** you finish or after 30 minutes stuck. Then compare: different isn't wrong.
+4. **`04-checkpoint.md`**: answer the questions without looking. If you can't, re-read that part of the lesson before moving on.
 
 Exercise levels:
+
 - 🟢 **Guided**: the steps are spelled out.
 - 🟡 **Open**: the goal is clear; the "how" is up to you.
 - 🔴 **Stretch**: optional, goes past the lesson.

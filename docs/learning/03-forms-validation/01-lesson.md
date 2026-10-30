@@ -251,4 +251,4 @@ Search for `TEMP(module 04)` when you get there.
 - `<Form>` vs `useForm`: when you'd pick each.
 - Why HTTP alone can't update *other* users' screens.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

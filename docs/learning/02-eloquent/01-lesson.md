@@ -259,4 +259,4 @@ public function toArray(Request $request): array
 - What N+1 is and two ways to defend against it.
 - Why you control the shape of data sent to the browser.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

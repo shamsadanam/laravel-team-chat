@@ -53,4 +53,4 @@ These are suggestions. If you design something else, write down why in your note
 2. **Commit per milestone**, with tests passing: `lerd artisan test --compact`.
 3. **Two-browser check** at the end of every milestone (Ada + Linus, plus Grace for authorization).
 
-Next: [milestones](exercises.md).
+Next: [milestones](02-exercises.md).

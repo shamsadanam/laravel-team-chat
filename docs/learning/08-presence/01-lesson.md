@@ -127,4 +127,4 @@ Join it in the **persistent layout**, so it stays connected while the user moves
 - What you must never use whispers for.
 - Why presence is a lossy view, not a source of truth.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).

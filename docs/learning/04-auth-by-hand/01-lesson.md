@@ -217,4 +217,4 @@ From module 06 on you'll need **two users at once**. Use a normal window for Ada
 - Why hiding a button isn't authorization.
 - Why `/broadcasting/auth` "just works" with your login.
 
-Next: [exercises](exercises.md).
+Next: [exercises](02-exercises.md).
